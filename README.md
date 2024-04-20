@@ -41,13 +41,6 @@ If the matrix multiplication task is not highly parallelizable, adding more thre
 ## 4. Synchronization Overhead
 Frequent synchronization between threads, such as accessing shared resources or coordinating work, can lead to overhead that outweighs the benefits of parallelism. This could contribute to the observed lack of improvement in execution time with increasing threads.
 
-# Recommendations
-
-- **Optimize Resource Usage:** Experiment with different thread counts to identify the optimal balance between parallelism and resource contention.
-  
-- **Profile and Optimize:** Profile the code to identify bottlenecks and optimize memory access patterns or algorithmic approaches.
-  
-- **Use Parallelization Techniques:** Consider using parallelization techniques like thread pooling or task scheduling to manage resources efficiently and reduce overhead.
 
 
 

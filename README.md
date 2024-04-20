@@ -1,4 +1,4 @@
-# MultiThreading
+# Multithreading
 
 # Methodology
 
